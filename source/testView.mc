@@ -72,20 +72,10 @@ class testView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
-        System.println("Exited Sleep");
-    	timer1.start(test_function, 1000, true);
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
-    	System.println("Entered Sleep");
-    	timer1.stop();
-    }
-    
-    private function test_function() {
-    
-    	System.println("T");
-    	
     }
     
     private function setDisplayText() {
