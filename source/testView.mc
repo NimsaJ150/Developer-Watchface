@@ -15,7 +15,7 @@ class testView extends WatchUi.WatchFace {
 	var def_increment_Y = 20.5;
 	var def_start_X = 20;
 	var def_increment_X = 60;
-	var text_color = 0x000000;
+	var text_color = 0xFFFFFF;
 	
     //in right order
 	var list = ["DateText","TimeText", "BatteryText", "StepText",  "MessageText"];
@@ -52,8 +52,6 @@ class testView extends WatchUi.WatchFace {
 		//setHeartrateDisplay();
 		setDisplayText();
 		setBottom();
-		
-		text_color = Application.getApp().getProperty("ForegroundColor");
 		
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
