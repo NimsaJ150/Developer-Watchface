@@ -1,7 +1,5 @@
 <fonts>
 
-    <font id="font_fira" filename="./font_firacode_lightv2.fnt" />
-    <font id="font_fira_hb" filename="./font_firacode_reg.fnt" />
     <font id="font_ubuntu" filename="./Ubuntu_Mono_Reg_20px.fnt" />
     <font id="font_ubuntu_hb" filename="./Ubuntu_Mono_Reg_22px.fnt" />
     

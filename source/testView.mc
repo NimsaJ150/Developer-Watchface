@@ -8,7 +8,7 @@ using Toybox.ActivityMonitor as Mon;
 
 class testView extends WatchUi.WatchFace {
 	
-	// var default_font = Graphics.FONT_GLANCE;
+	// defining defaults
 	var default_font = WatchUi.loadResource(Rez.Fonts.font_ubuntu);
 	var default_font_hb = WatchUi.loadResource(Rez.Fonts.font_ubuntu_hb);
 	var def_start_Y = 45;
@@ -49,7 +49,6 @@ class testView extends WatchUi.WatchFace {
 		setBatteryDisplay();
 		setStepCountDisplay();
 		setNotificationCountDisplay();
-		//setHeartrateDisplay();
 		setDisplayText();
 		setBottom();
 		
@@ -72,7 +71,7 @@ class testView extends WatchUi.WatchFace {
     }
     
     private function setDisplayText() {
-    	
+    	// display the descriptive texts contained in the list
     	for (var i=0; i<list.size(); i++){
     		var view = View.findDrawableById(list[i]);
 			view.setFont(default_font);
@@ -82,7 +81,8 @@ class testView extends WatchUi.WatchFace {
     
     }
     
-    private function setHead() {        
+    private function setHead() {
+    	// display the head command line        
 		var view = View.findDrawableById("Head");
 		view.setFont(default_font_hb);
 		view.setColor(text_color);
@@ -90,7 +90,8 @@ class testView extends WatchUi.WatchFace {
 		view.setText("user@watch:~ $ now"); 	    	
     }
     
-    private function setBottom() {        
+    private function setBottom() {     
+    	// display the bottom command line   
 		var view = View.findDrawableById("Bottom");
 		view.setFont(default_font_hb);
 		view.setColor(text_color);
@@ -112,17 +113,12 @@ class testView extends WatchUi.WatchFace {
         	meridies = "PM";
         }
         
+        // get hour format right
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
             }
-        } else {
-            if (Application.getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
         }
-        
         
         // Get the european time Zone
         var utcOffset = clockTime.timeZoneOffset/3600;
@@ -134,6 +130,7 @@ class testView extends WatchUi.WatchFace {
         	timeZone = "CEST";
         }
         
+        // format the time
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec.format("%02d"), meridies, timeZone]);
 		
 		
@@ -141,24 +138,27 @@ class testView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel");
         view.setFont(default_font);
         view.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("TimeText")+1)*def_increment_Y);
-        view.setColor(Application.getApp().getProperty("PinkColor"));
+        view.setColor(Application.getApp().getProperty("YellowColor"));
         view.setText(timeString);
     }
     
-    private function setDateDisplay() {        
+    private function setDateDisplay() { 
+    	// format and display the date       
     	var now = Time.now();
 		var date = Date.info(now, Time.FORMAT_LONG);
 		var dateString = Lang.format("$1$ $2$ $3$ $4$", [date.day_of_week, date.month, date.day, date.year]);
 		var dateDisplay = View.findDrawableById("DateDisplay");
 		dateDisplay.setFont(default_font);
 		dateDisplay.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("DateText")+1)*def_increment_Y);
-        dateDisplay.setColor(Application.getApp().getProperty("YellowColor"));   
+        dateDisplay.setColor(Application.getApp().getProperty("PinkColor"));   
 		dateDisplay.setText(dateString);	    	
     }
     
     private function setBatteryDisplay() {
+    	// format and display the battery status
     	var battery = System.getSystemStats().battery;
     	
+    	// create status view
     	var battBar = "[";
     	var count = battery;
     	count.format("%i");
@@ -173,24 +173,27 @@ class testView extends WatchUi.WatchFace {
     	}
     	battBar += "] ";
     	
+    	// Update the view
 		var batteryDisplay = View.findDrawableById("BatteryDisplay"); 
 		batteryDisplay.setFont(default_font);
-        batteryDisplay.setColor(Application.getApp().getProperty("GreenColor"));
+        batteryDisplay.setColor(Application.getApp().getProperty("CyanColor"));
 		batteryDisplay.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("BatteryText")+1)*def_increment_Y);     
 		batteryDisplay.setText(battBar + battery.format("%d")+" %");	
     }
     
     private function setStepCountDisplay() {
+    	// format and display the steps and step goal
     	var stepCount = Mon.getInfo().steps.toString();	
     	var stepGoal = Mon.getInfo().stepGoal.toString();	
 		var stepCountDisplay = View.findDrawableById("StepCountDisplay");
 		stepCountDisplay.setFont(default_font);
-        stepCountDisplay.setColor(Application.getApp().getProperty("CyanColor"));
+        stepCountDisplay.setColor(Application.getApp().getProperty("OrangeColor"));
 		stepCountDisplay.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("StepText")+1)*def_increment_Y);   
 		stepCountDisplay.setText(stepCount + "/" + stepGoal + " steps");		
     }
     
     private function setNotificationCountDisplay() {
+    	// format and display the notification number
     	var notificationAmount = System.getDeviceSettings().notificationCount;
 		
 		var formattedNotificationAmount = "";
@@ -201,39 +204,12 @@ class testView extends WatchUi.WatchFace {
 		else {
 			formattedNotificationAmount = notificationAmount.format("%d");
 		}
-	
+		
+		// Update the view
 		var notificationCountDisplay = View.findDrawableById("MessageCountDisplay");
-        notificationCountDisplay.setColor(Application.getApp().getProperty("OrangeColor"));		
+        notificationCountDisplay.setColor(Application.getApp().getProperty("GreenColor"));		
 		notificationCountDisplay.setFont(default_font); 
 		notificationCountDisplay.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("MessageText")+1)*def_increment_Y);   
 		notificationCountDisplay.setText(formattedNotificationAmount + " messages");
     }
-    
-    private function setHeartrateDisplay() {
-    	var heartRate = "";
-    	
-    	if(Mon has :INVALID_HR_SAMPLE) {
-    		heartRate = retrieveHeartrateText();
-    	}
-    	else {
-    		heartRate = "";
-    	}
-    	
-		var heartrateDisplay = View.findDrawableById("HeartrateDisplay");   
-        heartrateDisplay.setColor(Application.getApp().getProperty("RedColor"));
-		heartrateDisplay.setFont(default_font);
-		heartrateDisplay.setLocation(def_start_X + def_increment_X, def_start_Y + (list.indexOf("HeartText")+1)*def_increment_Y);   
-		heartrateDisplay.setText(heartRate + " bpm");
-	}
-	    
-    private function retrieveHeartrateText() {
-    	var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
-		var currentHeartrate = heartrateIterator.next().heartRate;
-	
-		if(currentHeartrate == Mon.INVALID_HR_SAMPLE) {
-			return "";
-		}		
-	
-		return currentHeartrate.format("%d");
-    }    
 }
