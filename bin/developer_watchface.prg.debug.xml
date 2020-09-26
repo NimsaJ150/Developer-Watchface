@@ -8,51 +8,58 @@
 <entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testBackground.mc" id="4" lineNum="15" pc="268435502" symbol="draw"/>
 <entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testBackground.mc" id="4" lineNum="17" pc="268435506" symbol="draw"/>
 <entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testBackground.mc" id="4" lineNum="18" pc="268435559" symbol="draw"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="6" lineNum="25" pc="268435572" symbol="onLayout"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="6" lineNum="26" pc="268435576" symbol="onLayout"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="7" lineNum="31" pc="268435614" symbol="initialize"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="7" lineNum="32" pc="268435618" symbol="initialize"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="8" lineNum="40" pc="268435637" symbol="onShow"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="45" pc="268435642" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="46" pc="268435646" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="47" pc="268435658" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="48" pc="268435670" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="49" pc="268435682" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="50" pc="268435694" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="51" pc="268435706" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="52" pc="268435718" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="53" pc="268435730" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="56" pc="268435742" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="10" lineNum="62" pc="268435763" symbol="onHide"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="11" lineNum="66" pc="268435768" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="12" lineNum="70" pc="268435773" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="20" lineNum="12" pc="268439674" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="20" lineNum="13" pc="268439717" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="20" lineNum="21" pc="268439796" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="22" lineNum="6" pc="268437876" symbol="initialize"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="22" lineNum="7" pc="268437880" symbol="initialize"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="23" lineNum="11" pc="268437899" symbol="onStart"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="24" lineNum="15" pc="268437904" symbol="onStop"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="25" lineNum="19" pc="268437909" symbol="getInitialView"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="25" lineNum="20" pc="268437913" symbol="getInitialView"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="26" lineNum="24" pc="268437951" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="26" lineNum="26" pc="268437955" symbol="onSettingsChanged"/>
-<entry filename="Rez" id="32" lineNum="17" pc="268437972" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="19" pc="268437984" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="20" pc="268438008" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="21" pc="268438154" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="22" pc="268438241" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="23" pc="268438328" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="24" pc="268438415" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="25" pc="268438502" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="26" pc="268438589" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="27" pc="268438676" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="28" pc="268438796" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="29" pc="268438916" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="30" pc="268439036" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="31" pc="268439156" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="32" pc="268439276" symbol="WatchFace"/>
-<entry filename="Rez" id="32" lineNum="34" pc="268439396" symbol="WatchFace"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="6" lineNum="29" pc="268435572" symbol="onLayout"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="6" lineNum="30" pc="268435576" symbol="onLayout"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="7" lineNum="35" pc="268435614" symbol="initialize"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="7" lineNum="36" pc="268435618" symbol="initialize"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="8" lineNum="44" pc="268435637" symbol="onShow"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="49" pc="268435642" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="50" pc="268435646" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="51" pc="268435658" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="52" pc="268435670" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="53" pc="268435682" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="54" pc="268435694" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="55" pc="268435706" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="56" pc="268435718" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="57" pc="268435730" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="58" pc="268435742" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="9" lineNum="63" pc="268435754" symbol="onUpdate"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="10" lineNum="69" pc="268435775" symbol="onHide"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="11" lineNum="74" pc="268435780" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="11" lineNum="75" pc="268435784" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="11" lineNum="76" pc="268435805" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="12" lineNum="80" pc="268435839" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="12" lineNum="81" pc="268435843" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="12" lineNum="82" pc="268435864" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="22" lineNum="13" pc="268440065" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="22" lineNum="14" pc="268440108" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="22" lineNum="22" pc="268440187" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testView.mc" id="22" lineNum="25" pc="268440221" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="24" lineNum="6" pc="268438137" symbol="initialize"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="24" lineNum="7" pc="268438141" symbol="initialize"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="25" lineNum="11" pc="268438160" symbol="onStart"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="26" lineNum="15" pc="268438165" symbol="onStop"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="27" lineNum="19" pc="268438170" symbol="getInitialView"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="27" lineNum="20" pc="268438174" symbol="getInitialView"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="28" lineNum="24" pc="268438212" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\jasmi\\OneDrive\\Projekte\\WatchFace Programmer\\Source Code\\source\\testApp.mc" id="28" lineNum="26" pc="268438216" symbol="onSettingsChanged"/>
+<entry filename="Rez" id="34" lineNum="17" pc="268438233" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="19" pc="268438245" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="20" pc="268438269" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="21" pc="268438389" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="22" pc="268438476" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="23" pc="268438563" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="24" pc="268438650" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="25" pc="268438737" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="26" pc="268438824" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="27" pc="268438911" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="28" pc="268439031" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="29" pc="268439177" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="30" pc="268439297" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="31" pc="268439417" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="32" pc="268439537" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="33" pc="268439657" symbol="WatchFace"/>
+<entry filename="Rez" id="34" lineNum="35" pc="268439777" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -79,21 +86,23 @@
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry id="39" method="true" symbol="&lt;globals/testView/&lt;&gt;setBatteryDisplay&gt;"/>
+<entry id="41" method="true" symbol="&lt;globals/testView/&lt;&gt;setBatteryDisplay&gt;"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="40" method="true" symbol="&lt;globals/testView/&lt;&gt;setStepCountDisplay&gt;"/>
+<entry id="42" method="true" symbol="&lt;globals/testView/&lt;&gt;setStepCountDisplay&gt;"/>
 <entry id="12" module="true" symbol="Menus"/>
 <entry field="true" id="21" symbol="ColorDarkGray"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-<entry id="36" method="true" symbol="&lt;globals/testView/&lt;&gt;setBottom&gt;"/>
+<entry id="37" method="true" symbol="&lt;globals/testView/&lt;&gt;setBottom&gt;"/>
 <entry field="true" id="27" symbol="default_font_hb"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
+<entry id="38" method="true" symbol="&lt;globals/testView/&lt;&gt;setCursor&gt;"/>
 <entry field="true" id="24" symbol="ColorWhite"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="8388696" symbol="timer1"/>
 <entry field="true" id="23" symbol="ColorBlack"/>
 <entry field="true" id="15" symbol="font_ubuntu_hb"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
@@ -102,10 +111,11 @@
 <entry id="10" object="true" symbol="testApp"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry id="38" method="true" symbol="&lt;globals/testView/&lt;&gt;setDateDisplay&gt;"/>
+<entry id="40" method="true" symbol="&lt;globals/testView/&lt;&gt;setDateDisplay&gt;"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="35" method="true" symbol="&lt;globals/testView/&lt;&gt;setHead&gt;"/>
-<entry id="41" method="true" symbol="&lt;globals/testView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+<entry id="36" method="true" symbol="&lt;globals/testView/&lt;&gt;setHead&gt;"/>
+<entry id="43" method="true" symbol="&lt;globals/testView/&lt;&gt;setNotificationCountDisplay&gt;"/>
+<entry id="34" method="true" symbol="&lt;globals/testView/&lt;&gt;test_function&gt;"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
@@ -120,12 +130,13 @@
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="16" symbol="ColorLightGray"/>
-<entry id="34" method="true" symbol="&lt;globals/testView/&lt;&gt;setDisplayText&gt;"/>
-<entry id="37" method="true" symbol="&lt;globals/testView/&lt;&gt;setClockDisplay&gt;"/>
+<entry id="35" method="true" symbol="&lt;globals/testView/&lt;&gt;setDisplayText&gt;"/>
+<entry id="39" method="true" symbol="&lt;globals/testView/&lt;&gt;setClockDisplay&gt;"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="19" symbol="ForegroundColorTitle"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="11" module="true" symbol="Layouts"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
@@ -135,51 +146,54 @@
 <entry endPc="268435501" name="dictionary" stackId="1" startPc="268435460"/>
 <entry arg="true" endPc="268435572" name="dc" stackId="1" startPc="268435502"/>
 <entry arg="true" endPc="268435614" name="dc" stackId="1" startPc="268435572"/>
-<entry arg="true" endPc="268435763" name="dc" stackId="1" startPc="268435642"/>
-<entry endPc="268435928" name="view" stackId="2" startPc="268435812"/>
-<entry endPc="268435941" name="i" stackId="1" startPc="268435812"/>
-<entry endPc="268436076" name="view" stackId="1" startPc="268435946"/>
-<entry endPc="268436229" name="view" stackId="1" startPc="268436081"/>
-<entry endPc="268436709" name="view" stackId="8" startPc="268436234"/>
-<entry endPc="268436709" name="hours" stackId="3" startPc="268436234"/>
-<entry endPc="268436709" name="timeZone" stackId="6" startPc="268436234"/>
-<entry endPc="268436709" name="timeString" stackId="7" startPc="268436234"/>
-<entry endPc="268436709" name="meridies" stackId="4" startPc="268436234"/>
-<entry endPc="268436709" name="clockTime" stackId="2" startPc="268436234"/>
-<entry endPc="268436709" name="utcOffset" stackId="5" startPc="268436234"/>
-<entry endPc="268436709" name="timeFormat" stackId="1" startPc="268436234"/>
-<entry endPc="268437032" name="date" stackId="2" startPc="268436714"/>
-<entry endPc="268437032" name="now" stackId="1" startPc="268436714"/>
-<entry endPc="268437032" name="dateDisplay" stackId="4" startPc="268436714"/>
-<entry endPc="268437032" name="dateString" stackId="3" startPc="268436714"/>
-<entry endPc="268437156" name="i" stackId="4" startPc="268437106"/>
-<entry endPc="268437363" name="battery" stackId="1" startPc="268437037"/>
-<entry endPc="268437363" name="battBar" stackId="2" startPc="268437037"/>
-<entry endPc="268437363" name="batteryDisplay" stackId="5" startPc="268437037"/>
-<entry endPc="268437363" name="count" stackId="3" startPc="268437037"/>
-<entry endPc="268437621" name="stepCountDisplay" stackId="3" startPc="268437368"/>
-<entry endPc="268437621" name="stepGoal" stackId="2" startPc="268437368"/>
-<entry endPc="268437621" name="stepCount" stackId="1" startPc="268437368"/>
-<entry endPc="268437875" name="notificationAmount" stackId="1" startPc="268437626"/>
-<entry endPc="268437875" name="notificationCountDisplay" stackId="3" startPc="268437626"/>
-<entry endPc="268437875" name="formattedNotificationAmount" stackId="2" startPc="268437626"/>
-<entry arg="true" endPc="268437904" name="state" stackId="1" startPc="268437899"/>
-<entry arg="true" endPc="268437909" name="state" stackId="1" startPc="268437904"/>
-<entry endPc="268439543" name="rez_cmp_local_text_MessageCountDisplay" stackId="9" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_HeartrateDisplay" stackId="8" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_BatteryText" stackId="13" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_TimeText" stackId="11" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_custom_drawable_18771517293171105620" stackId="2" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_DateDisplay" stackId="5" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_StepCountDisplay" stackId="7" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_Bottom" stackId="10" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_Head" stackId="3" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_DateText" stackId="12" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_MessageText" stackId="15" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_BatteryDisplay" stackId="6" startPc="268437984"/>
-<entry endPc="268439543" name="rez_cmp_local_text_StepText" stackId="14" startPc="268437984"/>
-<entry arg="true" endPc="268439544" name="dc" stackId="1" startPc="268437972"/>
+<entry arg="true" endPc="268435775" name="dc" stackId="1" startPc="268435642"/>
+<entry endPc="268436059" name="view" stackId="2" startPc="268435943"/>
+<entry endPc="268436072" name="i" stackId="1" startPc="268435943"/>
+<entry endPc="268436190" name="view" stackId="1" startPc="268436077"/>
+<entry endPc="268436326" name="view" stackId="1" startPc="268436195"/>
+<entry endPc="268436490" name="view" stackId="1" startPc="268436331"/>
+<entry endPc="268436490" name="clockTime" stackId="2" startPc="268436331"/>
+<entry endPc="268436970" name="view" stackId="8" startPc="268436495"/>
+<entry endPc="268436970" name="hours" stackId="3" startPc="268436495"/>
+<entry endPc="268436970" name="timeZone" stackId="6" startPc="268436495"/>
+<entry endPc="268436970" name="timeString" stackId="7" startPc="268436495"/>
+<entry endPc="268436970" name="meridies" stackId="4" startPc="268436495"/>
+<entry endPc="268436970" name="clockTime" stackId="2" startPc="268436495"/>
+<entry endPc="268436970" name="utcOffset" stackId="5" startPc="268436495"/>
+<entry endPc="268436970" name="timeFormat" stackId="1" startPc="268436495"/>
+<entry endPc="268437293" name="date" stackId="2" startPc="268436975"/>
+<entry endPc="268437293" name="now" stackId="1" startPc="268436975"/>
+<entry endPc="268437293" name="dateDisplay" stackId="4" startPc="268436975"/>
+<entry endPc="268437293" name="dateString" stackId="3" startPc="268436975"/>
+<entry endPc="268437417" name="i" stackId="4" startPc="268437367"/>
+<entry endPc="268437624" name="battery" stackId="1" startPc="268437298"/>
+<entry endPc="268437624" name="battBar" stackId="2" startPc="268437298"/>
+<entry endPc="268437624" name="batteryDisplay" stackId="5" startPc="268437298"/>
+<entry endPc="268437624" name="count" stackId="3" startPc="268437298"/>
+<entry endPc="268437882" name="stepCountDisplay" stackId="3" startPc="268437629"/>
+<entry endPc="268437882" name="stepGoal" stackId="2" startPc="268437629"/>
+<entry endPc="268437882" name="stepCount" stackId="1" startPc="268437629"/>
+<entry endPc="268438136" name="notificationAmount" stackId="1" startPc="268437887"/>
+<entry endPc="268438136" name="notificationCountDisplay" stackId="3" startPc="268437887"/>
+<entry endPc="268438136" name="formattedNotificationAmount" stackId="2" startPc="268437887"/>
+<entry arg="true" endPc="268438165" name="state" stackId="1" startPc="268438160"/>
+<entry arg="true" endPc="268438170" name="state" stackId="1" startPc="268438165"/>
+<entry endPc="268439934" name="rez_cmp_local_text_MessageCountDisplay" stackId="9" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_HeartrateDisplay" stackId="8" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_BatteryText" stackId="14" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_TimeText" stackId="12" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_DateDisplay" stackId="5" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_Cursor" stackId="11" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_custom_drawable_10455042348917141854" stackId="2" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_StepCountDisplay" stackId="7" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_Bottom" stackId="10" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_Head" stackId="3" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_DateText" stackId="13" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_MessageText" stackId="16" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_BatteryDisplay" stackId="6" startPc="268438245"/>
+<entry endPc="268439934" name="rez_cmp_local_text_StepText" stackId="15" startPc="268438245"/>
+<entry arg="true" endPc="268439935" name="dc" stackId="1" startPc="268438233"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
@@ -226,6 +240,9 @@
 <functionEntry accessMode="public" name="onEnterSleep" parent="testView">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/testView/&lt;&gt;test_function&gt;" parent="testView">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="private" name="&lt;globals/testView/&lt;&gt;setDisplayText&gt;" parent="testView">
 <documentation/>
 </functionEntry>
@@ -233,6 +250,9 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="private" name="&lt;globals/testView/&lt;&gt;setBottom&gt;" parent="testView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/testView/&lt;&gt;setCursor&gt;" parent="testView">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="private" name="&lt;globals/testView/&lt;&gt;setClockDisplay&gt;" parent="testView">

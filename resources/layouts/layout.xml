@@ -1,7 +1,7 @@
 <layout id="WatchFace">
     <drawable class="Background" />
     
-    <label id="Head" text="user@watch:~ $ now" x="20" y="45" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />  
+    <label id="Head" text="user@watch:~ $ now" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />  
     <label id="TimeLabel" justification="Graphics.TEXT_JUSTIFY_LEFT" />
     <label id="DateDisplay" justification="Graphics.TEXT_JUSTIFY_LEFT" />  
     <label id="BatteryDisplay" justification="Graphics.TEXT_JUSTIFY_LEFT"/>
@@ -9,6 +9,7 @@
     <label id="HeartrateDisplay" justification="Graphics.TEXT_JUSTIFY_LEFT" />  
     <label id="MessageCountDisplay" justification="Graphics.TEXT_JUSTIFY_LEFT" />
     <label id="Bottom" text="user@watch:~ $" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" /> 
+    <label id="Cursor" text="_" x="170" y="165" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" /> 
     
     <label id="TimeText" text="[TIME]" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />  
     <label id="DateText" text="[DATE]" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />  

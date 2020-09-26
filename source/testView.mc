@@ -3,6 +3,7 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.Application;
+using Toybox.Timer as Timer;
 using Toybox.Time.Gregorian as Date;
 using Toybox.ActivityMonitor as Mon;
 
@@ -19,6 +20,9 @@ class testView extends WatchUi.WatchFace {
 	
     //in right order
 	var list = ["DateText","TimeText", "BatteryText", "StepText",  "MessageText"];
+	
+	// timer
+	var timer1 = new Timer.Timer();
 
 
     // Load your resources here
@@ -38,7 +42,7 @@ class testView extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() {
-    
+    	
     }
 
     // Update the view
@@ -51,6 +55,9 @@ class testView extends WatchUi.WatchFace {
 		setNotificationCountDisplay();
 		setDisplayText();
 		setBottom();
+		setCursor();
+		
+		
 		
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -60,14 +67,25 @@ class testView extends WatchUi.WatchFace {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() {
+    	
     }
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+        System.println("Exited Sleep");
+    	timer1.start(test_function, 1000, true);
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
+    	System.println("Entered Sleep");
+    	timer1.stop();
+    }
+    
+    private function test_function() {
+    
+    	System.println("T");
+    	
     }
     
     private function setDisplayText() {
@@ -87,7 +105,6 @@ class testView extends WatchUi.WatchFace {
 		view.setFont(default_font_hb);
 		view.setColor(text_color);
 		view.setLocation(def_start_X, def_start_Y + 0*def_increment_Y - 3);  
-		view.setText("user@watch:~ $ now"); 	    	
     }
     
     private function setBottom() {     
@@ -96,7 +113,20 @@ class testView extends WatchUi.WatchFace {
 		view.setFont(default_font_hb);
 		view.setColor(text_color);
 		view.setLocation(def_start_X, def_start_Y + (list.size()+1)*def_increment_Y + 3);  
-		view.setText("user@watch:~ $"); 	    	
+    }
+    
+    private function setCursor() {
+    	// display the head command line        
+		var view = View.findDrawableById("Cursor");
+		
+		var clockTime = System.getClockTime().sec;
+		if (clockTime % 2 == 1) {
+			view.setText("");
+		} else {			
+			view.setText("_");
+		}
+		
+		view.setLocation(170, def_start_Y + (list.size()+1)*def_increment_Y);
     }
     
     private function setClockDisplay() {
