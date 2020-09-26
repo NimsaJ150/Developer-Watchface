@@ -72,10 +72,13 @@ class testView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+    
+		timer1.start(test(), 500, false);
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
+    timer1.stop();
     }
     
     private function setDisplayText() {
@@ -110,13 +113,15 @@ class testView extends WatchUi.WatchFace {
 		var view = View.findDrawableById("Cursor");
 		
 		var clockTime = System.getClockTime().sec;
-		if (clockTime % 2 == 1) {
-			view.setText("");
-		} else {			
-			view.setText("_");
-		}
+		
+		view.setText("");
 		
 		view.setLocation(170, def_start_Y + (list.size()+1)*def_increment_Y);
+		
+    }
+    
+    private function test() {
+    	System.println("T");
     }
     
     private function setClockDisplay() {
